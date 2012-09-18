@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804DF80D15B4155F006CCCCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804DF80C15B4155F006CCCCC /* UIKit.framework */; };
+		804DF80F15B4155F006CCCCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804DF80E15B4155F006CCCCC /* Foundation.framework */; };
+		804DF81115B4155F006CCCCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804DF81015B4155F006CCCCC /* CoreGraphics.framework */; };
+		804DF81715B4155F006CCCCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 804DF81515B4155F006CCCCC /* InfoPlist.strings */; };
+		804DF81915B4155F006CCCCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 804DF81815B4155F006CCCCC /* main.m */; };
+		804DF81D15B4155F006CCCCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 804DF81C15B4155F006CCCCC /* AppDelegate.m */; };
+		804DF82515B41587006CCCCC /* Btn.m in Sources */ = {isa = PBXBuildFile; fileRef = 804DF82415B41587006CCCCC /* Btn.m */; };
+		804DF82715B417EF006CCCCC /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804DF82615B417EF006CCCCC /* a.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		804DF80815B4155F006CCCCC /* CustomBtn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomBtn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		804DF80C15B4155F006CCCCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		804DF80E15B4155F006CCCCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		804DF81015B4155F006CCCCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		804DF81415B4155F006CCCCC /* CustomBtn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomBtn-Info.plist"; sourceTree = "<group>"; };
+		804DF81615B4155F006CCCCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		804DF81815B4155F006CCCCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		804DF81A15B4155F006CCCCC /* CustomBtn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomBtn-Prefix.pch"; sourceTree = "<group>"; };
+		804DF81B15B4155F006CCCCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		804DF81C15B4155F006CCCCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		804DF82315B41587006CCCCC /* Btn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Btn.h; sourceTree = "<group>"; };
+		804DF82415B41587006CCCCC /* Btn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Btn.m; sourceTree = "<group>"; };
+		804DF82615B417EF006CCCCC /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804DF80515B4155F006CCCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804DF80D15B4155F006CCCCC /* UIKit.framework in Frameworks */,
+				804DF80F15B4155F006CCCCC /* Foundation.framework in Frameworks */,
+				804DF81115B4155F006CCCCC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804DF7FD15B4155F006CCCCC = {
+			isa = PBXGroup;
+			children = (
+				804DF81215B4155F006CCCCC /* CustomBtn */,
+				804DF80B15B4155F006CCCCC /* Frameworks */,
+				804DF80915B4155F006CCCCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		804DF80915B4155F006CCCCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804DF80815B4155F006CCCCC /* CustomBtn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804DF80B15B4155F006CCCCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804DF80C15B4155F006CCCCC /* UIKit.framework */,
+				804DF80E15B4155F006CCCCC /* Foundation.framework */,
+				804DF81015B4155F006CCCCC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		804DF81215B4155F006CCCCC /* CustomBtn */ = {
+			isa = PBXGroup;
+			children = (
+				804DF81B15B4155F006CCCCC /* AppDelegate.h */,
+				804DF81C15B4155F006CCCCC /* AppDelegate.m */,
+				804DF82315B41587006CCCCC /* Btn.h */,
+				804DF82415B41587006CCCCC /* Btn.m */,
+				804DF82615B417EF006CCCCC /* a.jpg */,
+				804DF81315B4155F006CCCCC /* Supporting Files */,
+			);
+			path = CustomBtn;
+			sourceTree = "<group>";
+		};
+		804DF81315B4155F006CCCCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				804DF81415B4155F006CCCCC /* CustomBtn-Info.plist */,
+				804DF81515B4155F006CCCCC /* InfoPlist.strings */,
+				804DF81815B4155F006CCCCC /* main.m */,
+				804DF81A15B4155F006CCCCC /* CustomBtn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		804DF80715B4155F006CCCCC /* CustomBtn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804DF82015B4155F006CCCCC /* Build configuration list for PBXNativeTarget "CustomBtn" */;
+			buildPhases = (
+				804DF80415B4155F006CCCCC /* Sources */,
+				804DF80515B4155F006CCCCC /* Frameworks */,
+				804DF80615B4155F006CCCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomBtn;
+			productName = CustomBtn;
+			productReference = 804DF80815B4155F006CCCCC /* CustomBtn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804DF7FF15B4155F006CCCCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "曹 聪";
+			};
+			buildConfigurationList = 804DF80215B4155F006CCCCC /* Build configuration list for PBXProject "CustomBtn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 804DF7FD15B4155F006CCCCC;
+			productRefGroup = 804DF80915B4155F006CCCCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804DF80715B4155F006CCCCC /* CustomBtn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		804DF80615B4155F006CCCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804DF81715B4155F006CCCCC /* InfoPlist.strings in Resources */,
+				804DF82715B417EF006CCCCC /* a.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804DF80415B4155F006CCCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804DF81915B4155F006CCCCC /* main.m in Sources */,
+				804DF81D15B4155F006CCCCC /* AppDelegate.m in Sources */,
+				804DF82515B41587006CCCCC /* Btn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		804DF81515B4155F006CCCCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804DF81615B4155F006CCCCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		804DF81E15B4155F006CCCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		804DF81F15B4155F006CCCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		804DF82115B4155F006CCCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomBtn/CustomBtn-Prefix.pch";
+				INFOPLIST_FILE = "CustomBtn/CustomBtn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		804DF82215B4155F006CCCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomBtn/CustomBtn-Prefix.pch";
+				INFOPLIST_FILE = "CustomBtn/CustomBtn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		804DF80215B4155F006CCCCC /* Build configuration list for PBXProject "CustomBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804DF81E15B4155F006CCCCC /* Debug */,
+				804DF81F15B4155F006CCCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804DF82015B4155F006CCCCC /* Build configuration list for PBXNativeTarget "CustomBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804DF82115B4155F006CCCCC /* Debug */,
+				804DF82215B4155F006CCCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804DF7FF15B4155F006CCCCC /* Project object */;
+}
